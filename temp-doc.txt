@@ -1,0 +1,13 @@
+5.1. Can you explain the copy (cp ../temp-* .) command used above?
+    cp copies the files selected. In this case ../temp-* . finds three files: 
+    temp-average.py
+	temp-data.csv
+	temp-doc.txt
+
+5.2. Can you explain why, in this case, we did not have to do git init?
+    Because we cloned a directory, so we already had the hidden directory .git
+
+5.3. Can you commit the files copied? What do you need to do? Execute the commands that are needed.
+    As I've made changes to this file, I'll need to use to save them using git add temp-doc.txt.
+    Then use 'git add' to add the changes. 
+    Then I can use the command 'git commit' to commit all of the files I've added/modified
