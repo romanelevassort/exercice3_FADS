@@ -1,21 +1,20 @@
 ### 5.1
-O comando `cp ../temp-* .` usa o caractere `*` como coringa (wildcard).  
-Ele substitui qualquer sequência de caracteres, ou seja, `temp-*` seleciona todos os arquivos que começam com `temp-` (por exemplo, `temp-01.txt`, `temp-doc.txt`, `temp-abc.md`).  
-Assim, o comando copia todos os arquivos cujo nome começa com `temp-` da pasta acima (`../`) para a pasta atual (`.`).
+The command `cp ../temp-* .` uses the `*` character as a wildcard.  
+It replaces any sequence of characters, meaning that `temp-*` selects all files starting with `temp-` (for example, `temp-01.txt`, `temp-doc.txt`, `temp-abc.md`).  
+The command copies all files whose name starts with `temp-` from the parent folder (`../`) to the current folder (`.`).
 
 ### 5.2
-Não precisamos usar `git init` porque já clonámos o repositório do GitHub.  
-O comando `git clone` já trouxe a pasta `.git` e inicializou o repositório no computador, por isso não é necessário inicializar de novo.
+We don’t need to use `git init` because we already cloned the repository from GitHub.  
+The `git clone` command already brought the `.git` folder and initialized the repository on the computer, so it is not necessary to initialize it again.
 
 ### 5.3
-Sim, consigo enviar os arquivos copiados para o Git.  
-Para isso é preciso adicioná-los à área de staging e depois criar um commit:
+Yes, I can send the copied files to Git.  
+To do this, I need to add them to the staging area and then create a commit:
 
 ```bash
 git add temp-*
-git commit -m "feat: adicionar arquivos temp-*"
+git commit -m "feat: add temp-* files"
 
-### 5.3
-Para que os ficheiros copiados passem a fazer parte do repositório, é necessário adicioná-los e comitá-los:
+
 
 
