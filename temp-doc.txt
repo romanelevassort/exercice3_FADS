@@ -1,0 +1,20 @@
+### 5.1
+The command `cp ../temp-* .` uses the `*` character as a wildcard.  
+It replaces any sequence of characters, meaning that `temp-*` selects all files starting with `temp-` (for example, `temp-01.txt`, `temp-doc.txt`, `temp-abc.md`).  
+The command copies all files whose name starts with `temp-` from the parent folder (`../`) to the current folder (`.`).
+
+### 5.2
+We don’t need to use `git init` because we already cloned the repository from GitHub.  
+The `git clone` command already brought the `.git` folder and initialized the repository on the computer, so it is not necessary to initialize it again.
+
+### 5.3
+Yes, I can send the copied files to Git.  
+To do this, I need to add them to the staging area and then create a commit:
+
+```bash
+git add temp-*
+git commit -m "feat: add temp-* files"
+
+
+
+
