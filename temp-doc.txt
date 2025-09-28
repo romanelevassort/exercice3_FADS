@@ -1,0 +1,32 @@
+Questions / Tasks
+
+5.1. Can you explain the copy (cp ../temp-* .) command used above? 
+
+#The command copies all files starting with temp- from the parent folder (one level up) into current folder.
+
+5.2. Can you explain why, in this case, we did not have to do git init?
+
+#Because in this exercise, we cloned an existing repository from GitHub using git clone.
+
+5.3. Can you commit the files copied? What do you need to do? Execute the commands that are needed.
+
+#Yes. Once I’ve copied the files into my repository, I have to stage and commit. Following this step-by-step:
+
+$ git status
+
+$ git add .
+
+$ git commit -m "Add temp files to project"
+
+To verify that the files are successfully committed:
+
+$ git status
+
+And should appear:
+
+On branch main
+Your branch is up to date with 'origin/main'.
+nothing to commit, working tree clean
+
+
+
