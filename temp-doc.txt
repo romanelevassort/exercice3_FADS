@@ -1,0 +1,10 @@
+5.1. Can you explain the copy (cp ../temp-* .) command used above?
+Copies all files starting with temp- from the parent directory to this one.
+
+5.2. Can you explain why, in this case, we did not have to do git init?
+Means that the repository was already started.
+
+5.3. Can you commit the files copied? What do you need to do? Execute the commands that are needed.
+Yes. 
+Git add .
+Git commit -m "commit" 
