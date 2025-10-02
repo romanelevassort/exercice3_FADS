@@ -1,0 +1,13 @@
+5.1. Can you explain the copy (cp ../temp- .) command used above?*
+The command copies all files from the parent directory (..) whose names start with temp- into the current directory (.). The * works as a wildcard, so it includes all matching files: temp-data.csv, temp-average.py, and temp-doc.txt.
+
+5.2. Can you explain why, in this case, we did not have to do git init?
+We did not need to run git init because the folder greends-fads-first-project was already a Git repository. It was created by cloning from GitHub using git clone, which automatically initializes the repository and creates the .git folder.
+
+5.3. Can you commit the files copied? What do you need to do? Execute the commands that are needed.
+Yes, we can commit the copied files. The steps are:
+git add temp-data.csv temp-average.py temp-doc.txt
+git commit -m "Add files copied from my-first-project"
+git push myfork main.
+
+
