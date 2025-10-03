@@ -1,0 +1,7 @@
+5.1 Can you explain the copy (cp ../temp-* .) command used above?
+This command selects all the files in the folder above the current one whose name begins with "temp-" and copies it to the current folder.
+5.2 Can you explain why, in this case, we did not have to do git init?
+The git init command is used only once to create the repository. After that we need to use the operating system command to manage the files on the hard drive, in this case the cp command to copy the files.
+5.3 Can you commit the files coppied? What do you need to do? Execute the commands that are needed.
+Yes, I can. We need to instruct GIT that we want to track the files copied and that save their current status.
+We use to commands for that. First git add . (tells GIT ti start tracking the files in the current folder), and after git commit
