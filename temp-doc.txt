@@ -1,0 +1,5 @@
+5.1) O comando (cp ../temp-* .) é um comando de cópia usado para transferir os files de um directory para outro, sendo que (cp) é para copiar, o (../) representa o directory que está no nível acima do directory atual, o (temp-*) seleciona todos os ficheiros desse directory acima que começam por "temp-" e por fim o (.) é o destino, que é o directory atual.
+
+5.2) Não foi necessário executar o comando (git init) porque o directory greends-fads-first-project já foi configurado como um repositório Git quando executámos o comando (git clone), porque este comando copia os ficheiros do repositório e também inclui o folder (.git).
+
+5.3) Sim é possível fazer "commit" dos files copiados, usando o (git add) para mover os untracked files para a área de staging e depois usar o (git commit) para criar um snapshot dessas alterações.
