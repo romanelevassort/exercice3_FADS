@@ -12,6 +12,6 @@ on the world, and for a short while they manage it, but only as long as
 they are there to defend their collection, because when the day comes when
 it must be dispersed, and that day always comes, either with their death
 or when the collector grows weary, everything goes back to its beginnings,
-everything returns to chaos.”
+everything returns to chaos”
 
-*― José Saramago, All the Names* 
+*― José Saramago, All the Names-* 
